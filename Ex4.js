@@ -3,7 +3,7 @@
 // notas e a mensagem de APROVADO para média superior ou igual a 7,0 RECUPERAÇÃO para
 // notas entre 5.0 e 7,0 ou a mensagem de REPROVADO para média inferior a 5,0.
 
-alert ("Seja bem-vindo")
+alert ("Seja bem-vindo ao avaliador de notas")
 
 let Nota1 = parseFloat(prompt("Digite a nota do aluno 1: "));
 
