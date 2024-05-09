@@ -7,22 +7,22 @@ alert ("Bem vindo")
 let número = prompt ("Diga um número de 1 a 7")
 
 if(número == "1")
-    console.log("Segunda-feira");
+    alert("Domingão");
 
 if(número == "2")
-    console.log("Terça-feira")
+    alert("Segunda-feira")
 
 if(número == "3")
-    console.log("Quarta-feira")
+    alert("Terça-feira")
 
 if(número == "4")
-    console.log("Quinta-feira")
+    alert("Quarta-feira")
 
 if(número == "5")
-    console.log("Sexta-feira")
+    alert("Quinta-feira")
 
 if(número == "6")
-    console.log("Sábado")
+    alert("Sexta-feira")
 
 if(número == "7")
-    console.log("Domingão")
+    alert("Domingão")
