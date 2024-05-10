@@ -4,13 +4,11 @@
 
 alert("Seja bem-vindo")
 
-let anodenascimento = prompt("Em que ano você nasceu?")
-let mesdenascimento = prompt("Em que mês você nasceu? (Em número por gentileza)")
+let anodenascimento = prompt("Em que ano você nasceu?");
 
-if(anodenascimento>=2006 && mesdenascimento<=5 );
-    alert("Olha você é maior de 18, parabéns a vida adulta chama");
-
-if(anodenascimento>2006 && mesdenascimento>=6);
-    alert("Hmm... parece que você tem menos de 18 anos , aproveite a vida amiguinho");
-
+if(anodenascimento<=2006){
+    alert("Parece que você é maior de idade, parabens")
+}else {
+    alert("Parece que você é menor de idade, aproveite a vida")
+}
 

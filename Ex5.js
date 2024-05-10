@@ -12,7 +12,7 @@ let número2 = parseFloat(prompt("Digite um número: "));
 let número3 = parseFloat(prompt("Digite um número: "));
 
 if(número1>=número2 & número3){
-    alert("Seus Números esão em ordem decrescente")
+    alert("Seus Números estão em ordem decrescente")
 }else {
     alert("Seus números estão em ordem crescente")
 }
