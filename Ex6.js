@@ -4,11 +4,17 @@
 
 alert("Seja bem-vindo")
 
-let anodenascimento = prompt("Em que ano você nasceu?");
+let anodenascimento = parseInt(prompt("Em que ano você nasceu?"));
+let anoatual = 2024
+let idade = anoatual - anodenascimento
 
-if(anodenascimento<=2006){
-    alert("Parece que você é maior de idade, parabens")
-}else {
-    alert("Parece que você é menor de idade, aproveite a vida")
+if(idade >= 18) {
+    console.log("Você é maior de idade")
+    console.log("Sua idade é " + idade)
+    
+}
+else {
+    console.log("Você é menor de idade")
+    console.log("Sua idade é " +)
 }
 

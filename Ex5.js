@@ -17,3 +17,5 @@ if(número1<número2 && número2 < número3){
     alert("Seus números estão em ordem crescente")
 }
 
+//  Desafio
+// Escreva se os números informados estão de ordem crescente / descrescente / não ordenado

@@ -15,12 +15,14 @@ let Nota4 = parseFloat(prompt("Digite a nota 4: "));
 
 let notaTotal = Nota1 + Nota2 + Nota3 + Nota4;
 let media = notaTotal/4;
-alert("a media do aluno: " + media);
+alert("a media do aluno: " + media.toFixed(2));
 
-if(media>7){
-    
-    alert("Aprovados , Parabéns")
-}else {
-    alert("Desaprovados , Não desistam")
-}
-    
+if(media>=7 ){
+    console.log("APROVADO")
+
+}else if(media>=7 && media>=5){
+    console.log("RECUPERAÇÃO")
+
+}else(media>5); {
+    console.log("REPROVADO")
+ }   
