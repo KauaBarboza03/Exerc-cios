@@ -5,17 +5,17 @@
 
 alert ("Seja bem-vindo ao avaliador de notas")
 
-let Nota1 = parseFloat(prompt("Digite a nota do aluno 1: "));
+let Nota1 = parseFloat(prompt("Digite a nota 1: "));
 
-let Nota2 = parseFloat(prompt("Digite a nota do aluno 2: "));
+let Nota2 = parseFloat(prompt("Digite a nota 2: "));
 
-let Nota3 = parseFloat(prompt("Digite a nota do aluno 3: "));
+let Nota3 = parseFloat(prompt("Digite a nota 3: "));
 
-let Nota4 = parseFloat(prompt("Digite a nota do aluno 4: "));
+let Nota4 = parseFloat(prompt("Digite a nota 4: "));
 
 let notaTotal = Nota1 + Nota2 + Nota3 + Nota4;
 let media = notaTotal/4;
-alert(media);
+alert("a media do aluno: " + media);
 
 if(media>7){
     

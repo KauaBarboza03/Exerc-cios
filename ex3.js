@@ -4,7 +4,7 @@
 
 alert("Seja bem vindo!")
 
-let número = prompt("Coloque um número e descubra se ele é impar ou par!")
+let número = parseInt (prompt("Coloque um número e descubra se ele é impar ou par!"))
 
 if(número %2 == 0){
    alert("Par")

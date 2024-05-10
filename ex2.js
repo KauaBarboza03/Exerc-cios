@@ -4,25 +4,40 @@
 // 2 representa terça-feira e assim por diante.
 
 alert ("Bem vindo")
-let número = prompt ("Diga um número de 1 a 7")
+let diasemana = prompt ("Diga um número de 1 a 7")
 
-if(número == "1")
-    alert("Domingão");
+switch (diasemana)
+{
+    
+    case "1":
+        console.log("Segunda-feira")
+        break;
+    
+    case "2":
+        console.log("Terça-feira")
+         break;
+  
+    case "3":
+        console.log("Quarta-feira")
+        break;
+    
+    case "4":
+        console.log("Quinta-feira")
+        break;
+    
+    case "5":
+        console.log("Sexta-feira")
+        break;
+    
+    case "6":
+        console.log("Sabadão")
+        break;
+    
+    case "7":
+        console.log("Domingão")
+        break;
 
-if(número == "2")
-    alert("Segunda-feira")
-
-if(número == "3")
-    alert("Terça-feira")
-
-if(número == "4")
-    alert("Quarta-feira")
-
-if(número == "5")
-    alert("Quinta-feira")
-
-if(número == "6")
-    alert("Sexta-feira")
-
-if(número == "7")
-    alert("Domingão")
+        default:
+            console.log("O número informado não é valido")
+            break;
+}

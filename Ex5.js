@@ -5,13 +5,13 @@
 
 alert("Seja bem-vindo ao calculador de ordem crescente e decrescente")
 
-let número1 = parseFloat(prompt("Digite um número: "));
+let número1 = parseFloat(prompt("Digite um primeiro número: "));
 
-let número2 = parseFloat(prompt("Digite um número: "));
+let número2 = parseFloat(prompt("Digite um segundo número: "));
 
-let número3 = parseFloat(prompt("Digite um número: "));
+let número3 = parseFloat(prompt("Digite um terceiro número: "));
 
-if(número1>=número2 & número3){
+if(número1<número2 && número2 < número3){
     alert("Seus Números estão em ordem decrescente")
 }else {
     alert("Seus números estão em ordem crescente")
