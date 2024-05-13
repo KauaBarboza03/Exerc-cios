@@ -5,16 +5,17 @@
 alert("Seja bem-vindo")
 
 let anodenascimento = parseInt(prompt("Em que ano você nasceu?"));
-let anoatual = 2024
+// let anoatual = 2024
+let anoatual = new Date () .getFullYear();
 let idade = anoatual - anodenascimento
 
 if(idade >= 18) {
-    console.log("Você é maior de idade")
-    console.log("Sua idade é " + idade)
+    console.log("Você é maior de idade");
+    console.log("Sua idade é " + idade);
     
 }
 else {
-    console.log("Você é menor de idade")
-    console.log("Sua idade é " +)
+    console.log("Você é menor de idade");
+    console.log("Sua idade é " + idade);
 }
 

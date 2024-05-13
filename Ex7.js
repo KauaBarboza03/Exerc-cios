@@ -9,33 +9,28 @@
 
 alert("Seja bem-vindo")
 
-let valordacompra = prompt("Qual é o valor da sua compra?")
+let valordacompra = parseFloat(prompt("Qual é o valor da sua compra?"));
 
-if (valordacompra<100) {
-    alert("Você não recebeu nenhum desconto");
+let desconto;
 
-    alert(valordacompra)
+if(valorTotal <= 100){
+
+    desconto = 0;
+    console.log("O valor da compra foi: " + desconto)
 }
-
-if (valordacompra>100 && valordacompra<200) {
-    alert("Você recebeu um desconto de 10%")
-
-    let percentual = 0.10; 
-    let desconto = valordacompra * percentual % 100;
-    let valortotal = valordacompra - desconto
-    alert(valortotal)
-}
-
-if (valordacompra>=200) {
-    alert("Você recebeu um desconto de 20%")
-
-    let percentual = 0.20; 
-    let desconto = valordacompra * percentual % 100;
-    let valortotal = valordacompra - desconto
-    alert(valortotal)
-}
-
-
-
     
+    else if(valorTotal <= 200){
 
+        desconto = 0.10;
+        console.log("O valor da compra foi: " + (desconto*100) + "%")
+    }
+
+    else(valorTotal >= 200); {
+
+        desconto = 0.20;
+        console.log("O valor da compra foi: " + (desconto*100) + "%")
+    }
+
+    let valorFinal = valorTotal - (valorTotal*desconto)
+
+    console.log("O valor final da compra com desconto: R$ +" + valorFinal.toFixed(2))
